@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Scenes">
+      <UniqueIdentifier>{2ce46405-f2cb-477a-af13-257d3b149e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Scenes\Base">
+      <UniqueIdentifier>{96dc1f50-cda0-41a1-b4bb-f1862e2cba46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Scenes\Scene List">
+      <UniqueIdentifier>{60a577ee-8ba4-4f08-be73-de4a174e442a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Файлы заголовков\Scenes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Файлы заголовков\Scenes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Startup.h">
+      <Filter>Файлы заголовков\Scenes\Scene List</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Hello.h">
+      <Filter>Файлы заголовков\Scenes\Scene List</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneIncludes.h">
+      <Filter>Файлы заголовков\Scenes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEnumeration.h">
+      <Filter>Файлы заголовков\Scenes\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
