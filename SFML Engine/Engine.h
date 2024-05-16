@@ -1,18 +1,18 @@
 #pragma once
-#pragma comment(lib, "opengl32")
-#pragma comment(lib, "freetype")
-#pragma comment(lib, "winmm.lib")
+
 #include <string>
 #include <memory>
 #include <map>
 
 #include "SceneManager.h"
+#include "ResourceManager.h"
 
 class Engine
 {
     // Поля
     sf::RenderWindow window;
     SceneManager sceneManager;
+    ResourceManager resourceManager;
 
 
     // Обработка кода обновления сцены
@@ -90,6 +90,7 @@ public:
     Engine(unsigned int width, unsigned int height, std::string title)
     : window(sf::VideoMode(width, height), title)
     , sceneManager(window)
+    , resourceManager(std::filesystem::current_path().concat("/Resource/"))
     {
         window.setVerticalSyncEnabled(true);
     }

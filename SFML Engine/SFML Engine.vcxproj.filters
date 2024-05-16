@@ -50,5 +50,8 @@
     <ClInclude Include="SceneEnumeration.h">
       <Filter>Файлы заголовков\Scenes\Base</Filter>
     </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
